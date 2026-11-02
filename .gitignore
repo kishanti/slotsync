@@ -1,0 +1,28 @@
+# dependencies
+api/node_modules
+web/node_modules
+
+# build output
+web/dist
+
+# environment files — never commit real secrets
+api/.env
+.env
+
+# logs
+*.log
+npm-debug.log*
+
+# os files
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode
+.idea
+
+# test coverage
+api/coverage
+
+# mongodb data (if running locally)
+data/
